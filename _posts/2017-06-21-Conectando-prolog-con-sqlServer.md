@@ -5,6 +5,13 @@ featured-img: prolog-sql/prolog-page
 summary: Markdown is a way to style text on the web. You control the display of the document; formating words as bold 
 categories: [Prolog]
 ---
+<h2 class="section-heading">Conectando Prolog con Sql Server</h2>
+<p>En este post realizaremos un ejercicio de Sistemas expertos basados en probabilidad, la probabilidad Bayesiana</p>
+<p style="text-align:justify;">Conectaremos Prolog con SQLServer en la plataforma windows. Empezaremos creando la base de datos en sql server, con el nombre "hospital" y con una tabla llamada resumen </p>
+<h4>Creamos la tabla resumen con los siguientes campos.</h4>
+<img src="{{ site.baseurl }}/assets/img/assets/img/post/prolog-sql/tabla.PNG" alt="Post Sample Image">
+<br>
+<h4>Llenamos la tabla con los siguientes datos.</h4>
 ```sql
 insert into resumen (dolor,ppeso,vomito,enfermedad,cantidad)values('si','si','si','si',220);
 insert into resumen (dolor,ppeso,vomito,enfermedad,cantidad)values('si','si','no','si',220);

@@ -36,24 +36,24 @@ insert into resumen (dolor,ppeso,vomito,enfermedad,cantidad)values('no','no','no
 <br>
 <h2>Ahora crearemos un nuevo origen de Datos llamado "NuevaConexion".</h2>
 <h4>Nos dirigimos a herramientas administrativas, luego a origen de datos ODBC</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/herramientas%administrativas.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/herramientas-administrativas.PNG" alt="Post Sample Image">
  <h4>Agregamos uno nuevo</h4>
-  <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/nuevo origen de datos.PNG" alt="Post Sample Image">
+  <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/nuevo-origen-de-datos.PNG" alt="Post Sample Image">
   <h4>Seleccionamos SQL native client</h4>
-  <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/seleccionamos sql native.PNG" alt="Post Sample Image">
+  <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/seleccionamos-sql-native.PNG" alt="Post Sample Image">
  <h4>Colocamos el nombre a nuestra conexion y en servidor colocamos un punto "."</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/colocamos el nombre a nuestra conexion y un servidor.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/colocamos-el-nombre-a-nuestra-conexion-y-un-servidor.PNG" alt="Post Sample Image">
  <h4>Seleccionamos autentificacion de Windows</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/autentificacion de windows.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/autentificacion-de-windows.PNG" alt="Post Sample Image">
  <h4>Seleccionamos la base de datos creada</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/seleccionamos la base de datos creada.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/seleccionamos-la-base-de-datos-creada.PNG" alt="Post Sample Image">
  <h4>Establecemos el idioma</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/establecemos el idioma.PNG" alt="Post Sample Image"> 
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/establecemos-el-idioma.PNG" alt="Post Sample Image"> 
   <h4>Probamos el origen de datos y verificamos que la prueba se completo correctamente y aceptamos.</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/probamos el origen de datos.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/probamos-el-origen-de-datos.PNG" alt="Post Sample Image">
  <br>
  <h4>Conexión establecida.</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/conexion establecida.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/conexion-establecida.PNG" alt="Post Sample Image">
  
  <h2 class="section-heading">Ahora comenzaremos con Prolog</h2>
  <p>Para este tutorial trabajaré con SwiProlog, la instalación es sencilla, puedes descargarlo desde <a href="http://www.swi-prolog.org/Download.html"  target="_blank">Aquí</a></p>
@@ -90,7 +90,7 @@ sistema:- conexion,
  
  ```
  <p>Compilamos y ejecutamos el predicado sistema.</p>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/resultado1.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/resultado1.png" alt="Post Sample Image">
  
  
  <h4>Ahora realizarenos el mismo ejercicio usando el modo gráfico de Prolog.</h4>

@@ -36,7 +36,7 @@ insert into resumen (dolor,ppeso,vomito,enfermedad,cantidad)values('no','no','no
 <br>
 <h2>Ahora crearemos un nuevo origen de Datos llamado "NuevaConexion".</h2>
 <h4>Nos dirigimos a herramientas administrativas, luego a origen de datos ODBC</h4>
- <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/herramientas administrativas.PNG" alt="Post Sample Image">
+ <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/herramientas%administrativas.PNG" alt="Post Sample Image">
  <h4>Agregamos uno nuevo</h4>
   <img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/nuevo origen de datos.PNG" alt="Post Sample Image">
   <h4>Seleccionamos SQL native client</h4>

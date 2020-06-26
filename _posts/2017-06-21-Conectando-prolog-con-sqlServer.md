@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conectando Prolog con Sql Server"
-featured-img: imagen-prolog
+featured-img: prolog-sql/prolog/imagen-prolog
 summary: Markdown is a way to style text on the web. You control the display of the document; formating words as bold 
 categories: [Prolog]
 ---

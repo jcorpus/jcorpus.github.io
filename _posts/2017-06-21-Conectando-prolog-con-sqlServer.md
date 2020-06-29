@@ -32,7 +32,7 @@ insert into resumen (dolor,ppeso,vomito,enfermedad,cantidad)values('no','si','no
 insert into resumen (dolor,ppeso,vomito,enfermedad,cantidad)values('no','no','si','no',50);
 insert into resumen (dolor,ppeso,vomito,enfermedad,cantidad)values('no','no','no','no',113);
 ```
-<img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/resumen.PNG" alt="datos de la tabla">
+<img src="{{ site.baseurl }}/assets/img/posts/prolog-sql/resumen.png" alt="datos de la tabla">
 <br>
 <h2>Ahora crearemos un nuevo origen de Datos llamado "NuevaConexion".</h2>
 <h4>Nos dirigimos a herramientas administrativas, luego a origen de datos ODBC</h4>

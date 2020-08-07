@@ -24,7 +24,7 @@
 {% if site.service_worker %}
 <script async>
   if ('serviceWorker' in navigator) {
-    /*quitar el / si se cambia la base url /blog */
+    //quitar el / si se cambia la base url /blog 
     navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}').then(function( registration ) {
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     })
